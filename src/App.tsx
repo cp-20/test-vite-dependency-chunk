@@ -2,8 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import { IconArrowLeft } from '@tabler/icons-react';
-import { Icon } from '@iconify/react';
-import { FaArrowLeft } from 'react-icons/fa';
+// import { Icon } from '@iconify/react';
+// import { FaArrowLeft } from 'react-icons/fa';
 import './App.css';
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <IconArrowLeft size={24} />
-      <Icon icon="akar-icons:arrow-left" width="24" height="24" />
-      <FaArrowLeft size={24} />
+      {/* <Icon icon="akar-icons:arrow-left" width="24" height="24" />
+      <FaArrowLeft size={24} /> */}
     </>
   );
 }
